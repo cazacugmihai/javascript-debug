@@ -19,7 +19,7 @@
     "url": "git://github.com/cazacugmihai/javascript-debug.git"
   },
   "main": "ba-debug.min.js",
-  "version": "0.4",
+  "version": "0.4.0",
   "gitHead": "15e38ac6d61460958c389cc319a837e7a0d6cfa7",
   "readme": "",
   "readmeFilename": "README.markdown",
