@@ -3,6 +3,11 @@
   "version": "0.4.0",
   "description": "A simple wrapper for console.log",
   "main": "ba-debug.js",
+  "files": [
+    "ba-debug.min.js",
+    "ba-debug.js",
+    "README.*"
+  ],
   "directories": {
     "doc": "docs",
     "example": "examples"
@@ -17,11 +22,20 @@
   "keywords": [
     "javascript"
   ],
-  "author": "Ben Alman",
+  "author": {
+    "name": "Ben Alman"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cazacugmihai/javascript-debug/issues"
   },
   "homepage": "https://github.com/cazacugmihai/javascript-debug#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "gitHead": "3e6f311b0c916589dfd3861d43de8f4f5eeb19be",
+  "readme": "# JavaScript Debug: A simple wrapper for console.log #\n[http://benalman.com/projects/javascript-debug-console-log/](http://benalman.com/projects/javascript-debug-console-log/)\n\nVersion: 0.4, Last updated: 6/22/2010\n\nThis code provides a simple wrapper for the console's logging methods, and was created to allow a very easy-to-use, cross-browser logging solution, without requiring excessive or unwieldy object detection. If a console object is not detected, all logged messages will be stored internally until a logging callback is added. If a console object is detected, but doesn't have any of the `debug`, `info`, `warn`, and `error` logging methods, `log` will be used in their place. For convenience, some of the less common console methods will be passed through to the console object if they are detected, otherwise they will simply fail gracefully.\n\nVisit the [project page](http://benalman.com/projects/javascript-debug-console-log/) for more information and usage examples!\n\n\n## Documentation ##\n[http://benalman.com/code/projects/javascript-debug/docs/](http://benalman.com/code/projects/javascript-debug/docs/)\n\n\n## Examples ##\n[http://benalman.com/code/projects/javascript-debug/examples/debug/](http://benalman.com/code/projects/javascript-debug/examples/debug/)\n\n\n## Support and Testing ##\n\n### Browsers Tested ###\nInternet Explorer 6-8, Firefox 3-3.6, Safari 3-4, Chrome 3-5, Opera 9.6-10.5\n\n\n## License ##\nCopyright (c) 2010 \"Cowboy\" Ben Alman  \nDual licensed under the MIT and GPL licenses.  \n[http://benalman.com/about/license/](http://benalman.com/about/license/)\n",
+  "readmeFilename": "README.markdown",
+  "_id": "ba-debug@0.4.0",
+  "_shasum": "5ad31740cf73df856616e573626c3e2b37e24b24",
+  "_from": "git://github.com/cazacugmihai/javascript-debug.git",
+  "_resolved": "git://github.com/cazacugmihai/javascript-debug.git#3e6f311b0c916589dfd3861d43de8f4f5eeb19be"
 }
