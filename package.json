@@ -1,33 +1,27 @@
 {
   "name": "ba-debug",
-  "description": "debug",
-  "homepage": "",
-  "keywords": [
-    "javascript",
-    "debug"
-  ],
-  "author": {
-    "name": "cowboy",
-    "email": "cowboy@email.com",
-    "url": "https://www.cowboy.org"
+  "version": "0.4.0",
+  "description": "A simple wrapper for console.log",
+  "main": "ba-debug.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
   },
-  "contributors": [
-  ],
-  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/cazacugmihai/javascript-debug.git"
   },
-  "main": "ba-debug.min.js",
-  "version": "0.4.0",
-  "gitHead": "15e38ac6d61460958c389cc319a837e7a0d6cfa7",
-  "readme": "",
-  "readmeFilename": "README.markdown",
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ben Alman",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/cazacugmihai/javascript-debug/issues"
   },
-  "_id": "ba-debug@0.4.0",
-  "_shasum": "2574c7d8d97e142cc81a37e9e4c68f2b7b5ad34b",
-  "_from": "git://github.com/cazacugmihai/javascript-debug.git",
-  "_resolved": "git://github.com/cazacugmihai/javascript-debug.git#15e38ac6d61460958c389cc319a837e7a0d6cfa7"
+  "homepage": "https://github.com/cazacugmihai/javascript-debug#readme",
+  "dependencies": {}
 }
